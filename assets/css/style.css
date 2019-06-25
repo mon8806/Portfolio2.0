@@ -1,0 +1,39 @@
+
+#landing{
+    height: 100vh;
+    background-image: url('../images/beach.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+#mainText{
+    margin-top: 30vh;
+}
+#navbar{
+    background-color: rgba(0, 0, 0, 1);
+}
+.projects{
+    text-align: left;
+    width: 450px;
+    height: 390px;
+}
+.projects > div > img {
+    height: 230px;
+    width: 230px;
+}
+
+.project-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+#profilepic{
+    height: 475px;
+    width: 375px; 
+    float: left;  
+}
+.col-8{
+    font-size: 20px;
+}

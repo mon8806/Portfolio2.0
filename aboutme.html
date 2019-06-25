@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav id="navbar" style="background-color:powderblue">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="sidenav-trigger" data-target="slide_out"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-med-and-down right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <ul class="sidenav" id="slide_out">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="./assets/images/beach.JPG" />
+                </div>
+                <a href="#user"><img class="circle" src="./assets/images/Profilepic.jpg"></a>
+                <a href="#name"><span class="white-text name">Monica Parente</span></a>
+                <a href="#email"><span class="white-text email">mon8806@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="index.html"><i class="material-icons">home</i> Home</a></li>
+        <li><a href="aboutme.html"><i class="material-icons">person</i>About</a></li>
+        <li><a href="projects.html"><i class="material-icons">computers</i>Projects</a></li>
+    </ul>
+
+    <div class="section" id="landing">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img id="profilepic" src="./assets/images/Profilepic.jpg">
+                </div>
+                <div class="col-8"> <b>
+                        Hello, My name is Monica Parente. I was born and raised in Seattle. Graduated from UW with my BA
+                        then enrolled in pastry school at South Seattle and earned my AA in pastry. I interned in France
+                        for
+                        3 months after I graduated. Been baking for the past 8 years. Now, I'm currently a student at
+                        the UW Continuing Education Coding
+                        Bootcamp. Hopefully employer ready by the end of the school. The reason why I'm transitioning is
+                        that the thing I loved about baking is the
+                        creativity of it but it's not as challenging as it was in the beginning. I have a lot of
+                        different of hobbies and it all revolves my
+                        creativity. My husband suggested I try coding. I started learning on my own and I found that it
+                        wasn't as hard
+                        as I thought it would be. Just a lot of memorization. It still is challenging but it's what I'm
+                        looking for
+                        that also incorpates my creativity. I'm excited for this new journey. I know it's going to be
+                        tough but I
+                        won't give up.
+
+                        <p>On my free time, I really just like enjoying spending my time with my husband and our 2
+                            little monsters, known as Nala and Kaizer aka our dogs. I also enjoy doing things around the
+                            house, gardening, woodworking and sewing. When the weather is on my side, I like to go
+                            hiking, camping and snowboading. We travel as much as we can. We've been to the Philipines,
+                            Cambodia, Korea and hopefully Italy and Spain for our honeymoon.</p>
+
+                    </b>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large powderblue">
+            <i class="large material-icons">menu</i>
+        </a>
+        <ul>
+            <li><a href="https://github.com/mon8806" class="btn-floating black github"><i class="fa fa-github"></i></a>>
+            </li>
+            <li><a href="https://www.linkedin.com/in/monicasochenda/" class="btn-floating blue social linkedin"><i
+                        class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://docs.google.com/document/d/1hSGVasqLCtvHctKYYZySWY67jxzoevyEU6zIrSqJULw/edit?usp=sharing"
+                    class="btn-floating green"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+    <script>
+        var elems = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(elems, {});
+
+        var icon = document.querySelectorAll('.fixed-action-btn');
+        M.FloatingActionButton.init(icon, {
+            direction: 'left',
+            hoverEnabled: false
+        });
+    </script>
+
+
+    <!-- <script type="text/javascript" src="./assets/javascript/materialize.js"></script> -->
+</body>
+
+</html>
